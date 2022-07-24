@@ -1,6 +1,6 @@
 ![Logo](https://www.growlease.in/Content/logo.png)
 
-![Preview](./grow-lease-task/public/Homepage.jpg)
+![Preview](./public/Homepage.jpg)
 
 # Grow Lease Task
 
