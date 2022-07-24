@@ -1,0 +1,118 @@
+.sidebar{
+    background-color: #fff;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.388);
+    z-index: 100;
+}
+.search{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.search input{
+    all: unset;
+    font-size: 15px;
+}
+.search input::placeholder{
+    width: 100%;
+    font-size: 12px;
+}
+.alert{
+    font-size: 18px;
+    margin-right: 20px;
+}
+li{
+    list-style: none;
+}
+.sidebar .menu-bars{
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+}
+.nav-menu{
+    z-index: 100;
+    background-color: #fff;
+   width: 250px; 
+   height: 100vh;
+   display: flex;
+   justify-content: flex-start;
+   position: fixed;
+   top:0;
+   left: -100%;
+   transition: .85;
+   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.371);
+}
+.nav-menu.active{
+    left: 0;
+    transition: .35;
+}
+.nav-text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 0 8px 16px;
+    list-style: none;
+    height: 50px;
+}
+.borderTop{
+    border-top: 1px solid rgba(0, 0, 0, 0.212);
+}
+.heading{
+    font-size: 24px;
+    color: #1a83ff;
+}
+.mt-50{
+    margin: 10px 0;
+    display: flex;
+    width: 100%;
+}
+.nav-text img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+.nav-text .info{
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+.nav-text a{
+    color: rgb(67, 58, 58);
+    text-decoration: none;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+}
+.nav-text a:hover{
+    color: #1a83ff;
+}
+.nav-menu-items{
+    width: 100%;
+}
+.navbar-toggle{
+    background-color: #fff;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.menu-bars{
+    margin-left: 30px;
+    color: #000;
+    font-size: 24px;
+}
+span{
+    margin-left: 16px;
+}

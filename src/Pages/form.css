@@ -1,0 +1,70 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+.form header{
+    position: absolute;
+    top: 10px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.form header .right-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    margin: 0 0 0 200px;
+}
+.btn button{
+    all: unset;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.cancel-btn{
+    background-color: rgb(204, 35, 35) !important;
+    box-shadow: 5px 5px 10px rgba(204, 35, 35, 0.488) !important;
+}
+.btn .live-btn{
+    box-shadow: 5px 5px 10px #1a85ff5c;
+    background-color: #1a83ff;
+}
+.title{
+    font-size: 24px;
+}
+form{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start !important;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 20px;
+    height: 100vh;
+    margin: 10vw 0 0 14vw;
+}
+.input-form{
+    height: 20px !important;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.403);
+}
+.input-form:focus{
+    outline: transparent;
+}
+.input-form::placeholder{
+    color: rgba(128, 128, 128, 0.618);
+}
+.red{
+    color: rgb(211, 63, 63);
+}
+textarea{
+    padding: 40px 30px !important;
+}
